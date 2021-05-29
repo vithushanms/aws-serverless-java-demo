@@ -1,17 +1,17 @@
 package com.serverless;
 
+import java.util.Calendar;
 import java.util.Date;
-import java.util.Map;
 
 public class Response {
 
 	private String fullName;
 	private int age;
 
-	public Response(Map<String, Object> input) {
-		this.setFullName((String) input.get("firstName") + " " + (String) input.get("lastName"));
-		Date currentDate = new Date();
-		this.setAge((currentDate.getYear() - ((int) input.get("yearOfBirth")))); 
+	public Response(String firstName, String lastName, int yearOfBirth) {
+		this.setFullName(firstName + " " + lastName);
+		int currentYear = new Date().getYear() + 1900;
+		this.setAge(currentYear - yearOfBirth); 
 	}
 
 	public String getFullName() {

@@ -1,0 +1,3 @@
+com/serverless/dtos/RequestDto.class
+com/serverless/ApiGatewayResponse.class
+com/serverless/ApiGatewayResponse$Builder.class
