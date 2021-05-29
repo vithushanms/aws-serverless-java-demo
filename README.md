@@ -5,5 +5,5 @@ A sample demo FaaS application in Java using AWS serverless + Serverless Framewo
 
 created by: vithushan sylvester<br/>
 created on: 2021-May-28<br/>
-project status: In progress<br/>
-refernce docs: the url will be updated here as soon as it published<br/>
+project status: completed<br/>
+refernce docs: https://msvithushan.blogspot.com/2021/05/faas-with-aws-serverless-framework-in.htmld<br/>
