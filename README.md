@@ -9,8 +9,7 @@ project status: completed<br/>
 refernce docs: https://msvithushan.blogspot.com/2021/05/faas-with-aws-serverless-framework-in.htmld<br/>
 
 # To run
-------------------------------------------------
-----------------------------------------------
+----------------------------------------------------------------------------------------------
 mvn clean<br/>
 mvn compile<br/>
 mvn package<br/>
